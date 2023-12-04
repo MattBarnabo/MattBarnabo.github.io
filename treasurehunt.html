@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treasure Hunt</title>
+    <style>
+        button 
+        {
+            background-color: forestgreen;
+            color: blueviolet; 
+        }
+        body 
+        {
+            background : black;
+            color:sandybrown; 
+            
+              
+        
+        }
+    </style>
+    <link rel="icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/1/13/Skull_and_Bones.svg"/>
+    <link rel="stylesheet" href="treasurehunt.css"/
+</head>
+
+<body>
+  
+    <h1 id="title">Treasure Hunter</h1>
+    
+    <h2>How to Play</h2>
+    <ul> 
+        <li>Click on a tile to reveal an image.</li>
+        <li>If a treasure chest is revealed, then you've won!</li> 
+        <li>If a bomb is revealed, then you've lost!</li> 
+    </ul>
+
+    
+    <table border="1"> 
+        
+        <tr> 
+            <td id="0"  onclick="treasure('0')">?</td>
+            <td id="1"  onclick="treasure('1')">?</td>
+            <td id="2"  onclick="treasure('2')">?</td>
+        </tr>
+        <tr> 
+            <td id="3"  onclick="treasure('3')">?</td>
+            <td id="4"  onclick="treasure('4')">?</td>
+            <td id="5"  onclick="treasure('5')">?</td>
+        </tr>
+        <tr> 
+            <td id="6"  onclick="treasure('6')">?</td>
+            <td id="7"  onclick="treasure('7')">?</td>
+            <td id="8"  onclick="treasure('8')">?</td>
+        </tr>
+      
+      
+    </table>
+      
+    <button type="button" onclick="location.reload()">Restart Game</button>
+    
+    <footer>&copy; Carter & Matt</footer> <a href="https://gameforge.com/en-US/littlegames/mini-games/" target="_blank">gameforge.com</a>
+
+    <!-- script tag connected the external documents treasurehunt.html and treasurehunt.js -->
+    <script type="text/javascript" src="treasurehunt.js"></script>
+    
+</body>
+
+</html>

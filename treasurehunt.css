@@ -1,0 +1,12 @@
+h1{background-image: url("https://live.staticflickr.com/7647/16491939584_5416a41768_c.jpg");
+    background-repeat: no-repeat;
+}
+
+#title{color:rgb(231, 161, 64)}
+
+table{
+    height:400px;
+    width:400px;
+    /* display: flex;  */
+    /* justify-content:; */
+}
